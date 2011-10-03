@@ -17,9 +17,11 @@ nnoremap <Space>h :<C-u>nohlsearch<CR>
 nnoremap <Space>co :<C-u>e %:h<CR>
 nnoremap V 0v$h
 noremap v$ v$h
-
 nnoremap ; :
 nnoremap : ;
+
+" leader
+let mapleader=","
 
 " status line
 set laststatus=2
