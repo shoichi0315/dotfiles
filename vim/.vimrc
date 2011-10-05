@@ -13,12 +13,15 @@ filetype plugin indent on
 
 " Utils
 nnoremap <Space>w :<C-u>up<CR>
+nnoremap <Space>q :<C-u>q<CR>
 nnoremap <Space>h :<C-u>nohlsearch<CR>
 nnoremap <Space>co :<C-u>e %:h<CR>
 nnoremap V 0v$h
-noremap v$ v$h
+nnoremap v$ v$h
 nnoremap ; :
 nnoremap : ;
+nnoremap q q:k
+nnoremap <Leader>h :help<Space>
 
 " leader
 let mapleader=","
@@ -39,6 +42,7 @@ syntax on
 set hidden
 set nobackup
 set number
+"set list listchars=tab:>-,wrap:-
 
 " Tab
 set tabstop=4
