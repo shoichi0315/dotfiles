@@ -38,11 +38,6 @@ nnoremap q q:k
 nnoremap <Leader>h :help<Space>
 nnoremap <C-j> <C-^>
 nnoremap count g<C-g>
-
-inoremap <C-j> <ESC>ji
-inoremap <C-h> <ESC>i
-inoremap <C-l> <ESC>la
-inoremap <C-k> <ESC>ka
 "-------------------------------------------
 
 " status line
@@ -71,9 +66,9 @@ set shiftwidth=4
 " neocomplcache
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_underbar_completion = 1
-"imap <C-k> <Plug>(neocomplcache_snippets_expand)
-"smap <C-k> <Plug>(neocomplcache_snippets_expand)
-"inoremap <expr><C-l> neocomplcache#complete_common_string()
+imap <C-k> <Plug>(neocomplcache_snippets_expand)
+smap <C-k> <Plug>(neocomplcache_snippets_expand)
+inoremap <expr><C-l> neocomplcache#complete_common_string()
 
 " vimfiler
 let g:vimfiler_as_default_explorer  = 1
