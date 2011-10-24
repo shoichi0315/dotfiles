@@ -85,3 +85,8 @@ nnoremap <silent> <Leader>b :<C-u>Unite buffer<CR>
 nmap <Leader>open <Plug>(openbrowser-open)
 vmap <Leader>open <Plug>(openbrowser-open)
 
+" tags
+augroup tagsset
+  autocmd!
+  autocmd FileType *java set tags=~/.vim/tags/javatags
+augroup END
