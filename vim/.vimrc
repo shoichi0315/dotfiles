@@ -36,7 +36,7 @@ nnoremap : ;
 vnoremap ; :
 vnoremap : ;
 
-nnoremap q q:k
+nnoremap <Leader>q q:k
 nnoremap <Leader>h :help<Space>
 nnoremap <C-j> <C-^>
 nnoremap count g<C-g>
