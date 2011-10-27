@@ -33,6 +33,8 @@ nnoremap v$ v$h
 
 nnoremap ; :
 nnoremap : ;
+vnoremap ; :
+vnoremap : ;
 
 nnoremap q q:k
 nnoremap <Leader>h :help<Space>
