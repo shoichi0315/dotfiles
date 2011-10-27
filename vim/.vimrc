@@ -40,6 +40,9 @@ nnoremap <Leader>q q:k
 nnoremap <Leader>h :help<Space>
 nnoremap <C-j> <C-^>
 nnoremap count g<C-g>
+
+nnoremap + <C-w>+<CR>
+nnoremap - <C-w>-<CR>
 "-------------------------------------------
 
 " status line
