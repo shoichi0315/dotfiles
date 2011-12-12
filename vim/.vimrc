@@ -43,14 +43,17 @@ nnoremap count g<C-g>
 
 nnoremap + <C-w>+<CR>
 nnoremap - <C-w>-<CR>
-"-------------------------------------------
 
-" status line
-set laststatus=2
+imap <C-@> <C-[>
+imap <C-c> <C-[>
 
 " .vimrc
 nnoremap <Space>. :<C-u>edit $MYVIMRC<CR>
 nnoremap <Space>s. :<C-u>source $MYVIMRC<CR>
+"-------------------------------------------
+
+" status line
+set laststatus=2
 
 " encoding
 set encoding=utf-8
